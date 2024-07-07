@@ -12,6 +12,9 @@
 		0740EBD22C3B386E00432B5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0740EBD12C3B386E00432B5D /* Assets.xcassets */; };
 		0740EBD52C3B386E00432B5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0740EBD42C3B386E00432B5D /* Preview Assets.xcassets */; };
 		0740EBDC2C3B3FA800432B5D /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0740EBDB2C3B3FA800432B5D /* start.txt */; };
+		0740EBDE2C3B4D4500432B5D /* Sparks.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0740EBDD2C3B4D4500432B5D /* Sparks.sks */; };
+		0740EBE02C3B4DE200432B5D /* SparkScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0740EBDF2C3B4DD000432B5D /* SparkScene.swift */; };
+		0740EBE22C3B4FC100432B5D /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0740EBE12C3B4FC100432B5D /* ConfettiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		0740EBD12C3B386E00432B5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0740EBD42C3B386E00432B5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0740EBDB2C3B3FA800432B5D /* start.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		0740EBDD2C3B4D4500432B5D /* Sparks.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Sparks.sks; sourceTree = "<group>"; };
+		0740EBDF2C3B4DD000432B5D /* SparkScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkScene.swift; sourceTree = "<group>"; };
+		0740EBE12C3B4FC100432B5D /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 			children = (
 				0740EBCD2C3B386D00432B5D /* WordScrambleApp.swift */,
 				0740EBCF2C3B386D00432B5D /* ContentView.swift */,
+				0740EBE12C3B4FC100432B5D /* ConfettiView.swift */,
+				0740EBDF2C3B4DD000432B5D /* SparkScene.swift */,
+				0740EBDD2C3B4D4500432B5D /* Sparks.sks */,
 				0740EBD12C3B386E00432B5D /* Assets.xcassets */,
 				0740EBDB2C3B3FA800432B5D /* start.txt */,
 				0740EBD32C3B386E00432B5D /* Preview Content */,
@@ -131,6 +140,7 @@
 				0740EBD52C3B386E00432B5D /* Preview Assets.xcassets in Resources */,
 				0740EBDC2C3B3FA800432B5D /* start.txt in Resources */,
 				0740EBD22C3B386E00432B5D /* Assets.xcassets in Resources */,
+				0740EBDE2C3B4D4500432B5D /* Sparks.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0740EBE22C3B4FC100432B5D /* ConfettiView.swift in Sources */,
 				0740EBD02C3B386D00432B5D /* ContentView.swift in Sources */,
 				0740EBCE2C3B386D00432B5D /* WordScrambleApp.swift in Sources */,
+				0740EBE02C3B4DE200432B5D /* SparkScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
