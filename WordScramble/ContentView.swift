@@ -57,6 +57,7 @@ struct ContentView: View {
                         }
                         .listRowBackground(Color.white.opacity(0.5))
                         
+                        
                         Section {
                             TextField("Enter your word", text: $newWord)
                                 .textInputAutocapitalization(.never)
@@ -75,11 +76,7 @@ struct ContentView: View {
                         
                     }
                     .scrollContentBackground(.hidden)
-                    .overlay(
-                        ConfettiView(isActive: $showSparks)
-                                    .frame(width: 300, height: 300)
-                                    .opacity(showSparks ? 1 : 0)
-                    )
+                
                    
                     
                 }
@@ -92,6 +89,11 @@ struct ContentView: View {
                 } message: {
                     Text(errorMessage)
                 }
+                .overlay(
+                    ConfettiView(isActive: $showSparks)
+                                .frame(width: 300, height: 300)
+                                .opacity(showSparks ? 1 : 0)
+                )
                     
                 
                 
@@ -187,7 +189,7 @@ struct ContentView: View {
     private func showConfettiEffect() {
         showSparks = true
         withAnimation {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                 showSparks = false
             }
         }
